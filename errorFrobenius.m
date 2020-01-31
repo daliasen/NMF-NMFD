@@ -1,4 +1,4 @@
-function [e] = error_Frobenius(V, V_tilde)
+function [e] = errorFrobenius(V, V_tilde)
 
 % Calculates KL divergence error based on Frobenius norm
 %

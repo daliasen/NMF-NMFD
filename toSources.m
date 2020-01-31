@@ -1,4 +1,4 @@
-function [S] = to_sources(W,H,R_nmf)
+function [S] = toSources(W,H,R_nmf)
 
 % Input:
 %   W - magnitude 3D array containing STFTs of bases (single-sided)

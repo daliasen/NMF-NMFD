@@ -1,4 +1,4 @@
-function [W,H,E] = nmfd_mine(V,W,H,I,flagUpdateBases)
+function [W,H,E] = nmfd(V,W,H,I,flagUpdateBases)
 
 % The update rule for activations was adapted from "Drum extraction in 
 % single channel audio signals using multi-layer non negative matrix factor 

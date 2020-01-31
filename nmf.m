@@ -1,4 +1,4 @@
-function [W,H,E] = nmf_mine(V,W,H,I,flagUpdateBases)
+function [W,H,E] = nmf(V,W,H,I,flagUpdateBases)
 
 % Input:
 %   1) V - magnitude of STFT of mixture (single-sided)
